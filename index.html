@@ -25,21 +25,26 @@
         </nav>
       </header>
       <section>
-        <h3>현재 상영 영화 목록</h3>
-        <ul>
+        <h3 class="sr-only">현재 상영 영화 목록</h3>
+        <ul class="list-movieInfo">
           <li>
             <article>
-              <h4>영화 상세 정보</h4>
-              <a href="#none">
-                <img src="#" alt="위니브 월드 : 새로운 시작" />
+              <h4 class="sr-only">영화 상세 정보</h4>
+              <a href="#none" class="link-movie">
+                <img
+                  src="src/images/포스터_위니브월드.png"
+                  alt="위니브 월드 : 새로운 시작"
+                />
               </a>
-              <strong>위니브 월드 : 새로운 시작</strong>
-              <dl>
+              <strong class="tit-movie sl-ellipsis"
+                >위니브 월드 : 새로운 시작</strong
+              >
+              <dl class="list-info">
                 <div>
                   <dt>개요</dt>
                   <dd>판타지</dd>
                 </div>
-                <div>
+                <div class="item-star">
                   <dt>평점</dt>
                   <dd>9.05</dd>
                 </div>
@@ -49,14 +54,14 @@
                 </div>
                 <div>
                   <dt>출연</dt>
-                  <dd>
+                  <dd class="multi-ellipsis">
                     라이켓, 소울공, 개리씨, 벙키, 유라, 지비도, 소울돔, 에이드
                   </dd>
                 </div>
               </dl>
             </article>
-            <a href="#none">예매하기</a>
-            <a href="#none">예고편</a>
+            <a href="#none" class="link-reserv">예매하기</a
+            ><a href="#none" class="link-teaser">예고편</a>
           </li>
         </ul>
       </section>
